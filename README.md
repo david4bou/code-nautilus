@@ -1,15 +1,16 @@
 # code-nautilus
 
-French version 🇫🇷🇫🇷🇫🇷
-This repo provides a visual studio code extension for Nautilus.
+Version Française 🇫🇷🇫🇷🇫🇷
 
-## Install Extension
+Ce repo fournit une extension de Visual Studio Code pour Nautilus.
+
+## Installer l'extension
 
 ```
 wget -qO- https://raw.githubusercontent.com/david4bou/code-nautilus/master/install.sh | bash
 ```
 
-## Uninstall Extension
+## Désinstaller l'extension
 
 ```
 rm -f ~/.local/share/nautilus-python/extensions/code-nautilus.py
