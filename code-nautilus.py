@@ -45,8 +45,8 @@ class VSCodeExtension(GObject.GObject, Nautilus.MenuProvider):
     def get_file_items(self, window, files):
         item = Nautilus.MenuItem(
             name='VSCodeOpen',
-            label='Open in ' + VSCODENAME,
-            tip='Opens the selected files with VSCode'
+            label='Ouvrir avec ' + VSCODENAME,
+            tip='Ouvre les fichiers sélectionnés avec VSCode'
         )
         item.connect('activate', self.launch_vscode, files)
 
@@ -55,8 +55,8 @@ class VSCodeExtension(GObject.GObject, Nautilus.MenuProvider):
     def get_background_items(self, window, file_):
         item = Nautilus.MenuItem(
             name='VSCodeOpenBackground',
-            label='Open in ' + VSCODENAME,
-            tip='Opens the current directory in VSCode'
+            label='Ouvrir avec ' + VSCODENAME,
+            tip='Ouvre le répertoire actuel avec VSCode'
         )
         item.connect('activate', self.launch_vscode, [file_])
 
