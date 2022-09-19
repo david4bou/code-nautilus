@@ -1,5 +1,6 @@
 # code-nautilus
 
+French version 🇫🇷🇫🇷🇫🇷
 This repo provides a visual studio code extension for Nautilus.
 
 ## Install Extension
