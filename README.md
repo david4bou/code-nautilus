@@ -5,7 +5,7 @@ This repo provides a visual studio code extension for Nautilus.
 ## Install Extension
 
 ```
-wget -qO- https://raw.githubusercontent.com/harry-cpp/code-nautilus/master/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/david4bou/code-nautilus/master/install.sh | bash
 ```
 
 ## Uninstall Extension
